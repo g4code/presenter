@@ -4,9 +4,159 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "949423878351b49c669b12c3ae503f45",
-    "content-hash": "3427b872f4b37806bbc6a43eca88a166",
-    "packages": [],
+    "hash": "dba9fbf225e261df7ed4886df656859f",
+    "content-hash": "4faedf246cdbe6764a36afb134d56da1",
+    "packages": [
+        {
+            "name": "aura/accept",
+            "version": "2.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/Aura.Accept.git",
+                "reference": "1c40bc38333a7899b95823a4d85ab758f7c618b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/Aura.Accept/zipball/1c40bc38333a7899b95823a4d85ab758f7c618b2",
+                "reference": "1c40bc38333a7899b95823a4d85ab758f7c618b2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "aura/di": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "aura": {
+                    "type": "library",
+                    "config": {
+                        "common": "Aura\\Accept\\_Config\\Common"
+                    }
+                },
+                "branch-alias": {
+                    "dev-develop-2": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Aura\\Accept\\": "src/",
+                    "Aura\\Accept\\_Config\\": "config/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Aura.Accept Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.Accept/contributors"
+                }
+            ],
+            "description": "Provides content-negotiation tools using Accept* headers.",
+            "homepage": "https://github.com/auraphp/Aura.Accept",
+            "keywords": [
+                "accept",
+                "accept-charset",
+                "accept-encoding",
+                "accept-language",
+                "content negotiation",
+                "content type",
+                "media type"
+            ],
+            "time": "2015-03-27 17:05:44"
+        },
+        {
+            "name": "g4/constants",
+            "version": "0.6.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/g4code/constants.git",
+                "reference": "d33f8d3bc868ec30c4549ee7959748bd7fea7cce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/g4code/constants/zipball/d33f8d3bc868ec30c4549ee7959748bd7fea7cce",
+                "reference": "d33f8d3bc868ec30c4549ee7959748bd7fea7cce",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "G4\\Constants\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dejan Samardzija",
+                    "email": "samardzija.dejan@gmail.com"
+                }
+            ],
+            "description": "G4 constants that are used for all day stuff and this is good way to organize them",
+            "keywords": [
+                "constants"
+            ],
+            "time": "2015-10-15 12:28:12"
+        },
+        {
+            "name": "g4/http",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/g4code/http.git",
+                "reference": "aebc087234858b8059d81c9da19b1ab378e2fe58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/g4code/http/zipball/aebc087234858b8059d81c9da19b1ab378e2fe58",
+                "reference": "aebc087234858b8059d81c9da19b1ab378e2fe58",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "G4\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Drasko Gomboc",
+                    "email": "drasko.gomboc@gmail.com"
+                },
+                {
+                    "name": "Dejan Samardzija",
+                    "email": "samardzija.dejan@gmail.com"
+                },
+                {
+                    "name": "Ivan Krickovic",
+                    "email": "ivan.krickovic@gmail.com"
+                }
+            ],
+            "description": "g4 http request and response objects, for now taken and edited from ZF1",
+            "keywords": [
+                "http",
+                "request",
+                "response"
+            ],
+            "time": "2015-03-20 09:26:57"
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
@@ -455,16 +605,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "5.1.4",
+            "version": "5.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "676c25c4ac563869572c878fdaf3db21587f5f3b"
+                "reference": "72e92139712e868c3888ed4dd4d3c3eb365b1bb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/676c25c4ac563869572c878fdaf3db21587f5f3b",
-                "reference": "676c25c4ac563869572c878fdaf3db21587f5f3b",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/72e92139712e868c3888ed4dd4d3c3eb365b1bb7",
+                "reference": "72e92139712e868c3888ed4dd4d3c3eb365b1bb7",
                 "shasum": ""
             },
             "require": {
@@ -525,7 +675,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-01-11 10:11:10"
+            "time": "2016-01-29 09:19:36"
         },
         {
             "name": "phpunit/phpunit-mock-objects",

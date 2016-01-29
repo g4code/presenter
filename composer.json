@@ -30,6 +30,9 @@
         "phpunit/phpunit": "5.*"
     },
     "require": {
-        "php": ">=5.6"
+        "php"         : ">=5.6",
+        "aura/accept" : "2.2.2",
+        "g4/constants": "*",
+        "g4/http"     : "*"
     }
 }
